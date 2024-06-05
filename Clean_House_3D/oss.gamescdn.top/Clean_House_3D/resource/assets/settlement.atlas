@@ -1,0 +1,144 @@
+{
+    "frames": {
+        "button_lv.png": {
+            "frame": {
+                "h": 248,
+                "idx": 0,
+                "w": 320,
+                "x": 0,
+                "y": 253
+            },
+            "sourceSize": {
+                "h": 248,
+                "w": 320
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "button_zi.png": {
+            "frame": {
+                "h": 248,
+                "idx": 0,
+                "w": 310,
+                "x": 321,
+                "y": 253
+            },
+            "sourceSize": {
+                "h": 248,
+                "w": 310
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "continue.png": {
+            "frame": {
+                "h": 43,
+                "idx": 0,
+                "w": 194,
+                "x": 0,
+                "y": 555
+            },
+            "sourceSize": {
+                "h": 47,
+                "w": 198
+            },
+            "spriteSourceSize": {
+                "x": 2,
+                "y": 2
+            }
+        },
+        "diamond_bg.png": {
+            "frame": {
+                "h": 52,
+                "idx": 0,
+                "w": 340,
+                "x": 0,
+                "y": 502
+            },
+            "sourceSize": {
+                "h": 52,
+                "w": 346
+            },
+            "spriteSourceSize": {
+                "x": 3,
+                "y": 0
+            }
+        },
+        "level_bg.png": {
+            "frame": {
+                "h": 54,
+                "idx": 0,
+                "w": 233,
+                "x": 341,
+                "y": 502
+            },
+            "sourceSize": {
+                "h": 54,
+                "w": 233
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "level_complete_text.png": {
+            "frame": {
+                "h": 68,
+                "idx": 0,
+                "w": 519,
+                "x": 0,
+                "y": 184
+            },
+            "sourceSize": {
+                "h": 183,
+                "w": 593
+            },
+            "spriteSourceSize": {
+                "x": 32,
+                "y": 52
+            }
+        },
+        "title_bg.png": {
+            "frame": {
+                "h": 183,
+                "idx": 0,
+                "w": 593,
+                "x": 0,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 183,
+                "w": 593
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "video.png": {
+            "frame": {
+                "h": 53,
+                "idx": 0,
+                "w": 62,
+                "x": 575,
+                "y": 502
+            },
+            "sourceSize": {
+                "h": 53,
+                "w": 62
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    },
+    "meta": {
+        "image": "settlement.png",
+        "prefix": "settlement/"
+    }
+}

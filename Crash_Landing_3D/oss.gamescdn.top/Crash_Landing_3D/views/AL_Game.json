@@ -1,0 +1,274 @@
+{
+	"type": "Scene",
+	"props": {
+		"width": 750,
+		"scaleY": 1,
+		"runtime": "scripts/views/GameView_AL.ts",
+		"height": 1334
+	},
+	"compId": 2,
+	"child": [{
+		"type": "Label",
+		"props": {
+			"y": 617,
+			"x": 275,
+			"width": 200,
+			"visible": false,
+			"valign": "middle",
+			"text": "9",
+			"name": "lblDetay",
+			"fontSize": 100,
+			"color": "#ffffff",
+			"align": "center"
+		},
+		"compId": 41
+	}, {
+		"type": "Box",
+		"props": {
+			"y": 32,
+			"x": 0,
+			"width": 750,
+			"name": "topPanel",
+			"height": 60
+		},
+		"compId": 7,
+		"child": [{
+			"type": "Label",
+			"props": {
+				"y": 32,
+				"x": 75,
+				"width": 600,
+				"visible": false,
+				"valign": "middle",
+				"text": "9999",
+				"name": "lbSpeed",
+				"fontSize": 90,
+				"color": "#ffffff",
+				"align": "center"
+			},
+			"compId": 6
+		}, {
+			"type": "Label",
+			"props": {
+				"y": 123,
+				"x": 75,
+				"width": 600,
+				"visible": false,
+				"valign": "middle",
+				"text": "0Level",
+				"name": "lbLevel",
+				"fontSize": 70,
+				"color": "#ffffff",
+				"align": "center"
+			},
+			"compId": 48
+		}, {
+			"type": "ProgressBar",
+			"props": {
+				"y": 220,
+				"x": 221,
+				"visible": false,
+				"value": 1,
+				"skin": "ui/common/speed_up.png",
+				"sizeGrid": "0,20,0,20",
+				"name": "barSpeed"
+			},
+			"compId": 55
+		}, {
+			"type": "FontClip",
+			"props": {
+				"y": 108,
+				"x": 19,
+				"width": 656,
+				"value": "0",
+				"spaceX": -50,
+				"skin": "ui/common/font_num.png",
+				"sheet": "1234567890+",
+				"name": "fontScore",
+				"height": 100,
+				"align": "center"
+			},
+			"compId": 56
+		}, {
+			"type": "Box",
+			"props": {
+				"y": 251,
+				"x": 612,
+				"visible": false,
+				"var": "_gameRank",
+				"name": "rank"
+			},
+			"compId": 66,
+			"child": [{
+				"type": "Image",
+				"props": {
+					"y": 1,
+					"x": 0
+				},
+				"compId": 67
+			}, {
+				"type": "WXOpenDataViewer",
+				"props": {
+					"y": 37,
+					"x": -5,
+					"width": 65,
+					"visible": false,
+					"iconSign": "wx",
+					"height": 65,
+					"runtime": "laya.ui.WXOpenDataViewer"
+				},
+				"compId": 68
+			}]
+		}, {
+			"type": "Box",
+			"props": {
+				"y": 285,
+				"x": 20,
+				"visible": false
+			},
+			"compId": 69,
+			"child": [{
+				"type": "Sprite",
+				"props": {
+					"y": 1,
+					"x": 0,
+					"width": 65,
+					"visible": false,
+					"sizeGrid": "13,14,16,13",
+					"name": "icon",
+					"height": 65
+				},
+				"compId": 70
+			}, {
+				"type": "WXOpenDataViewer",
+				"props": {
+					"y": 1,
+					"x": 0,
+					"width": 65,
+					"visible": false,
+					"iconSign": "wx",
+					"height": 65,
+					"runtime": "laya.ui.WXOpenDataViewer"
+				},
+				"compId": 71
+			}, {
+				"type": "Image",
+				"props": {
+					"y": 1,
+					"x": 75,
+					"visible": false,
+					"name": "tip"
+				},
+				"compId": 72
+			}]
+		}, {
+			"type": "Image",
+			"props": {
+				"y": 287,
+				"x": 607,
+				"width": 65,
+				"visible": false,
+				"name": "overPlayer",
+				"height": 65
+			},
+			"compId": 73,
+			"child": [{
+				"type": "Image",
+				"props": {
+					"y": -35,
+					"x": 5
+				},
+				"compId": 74
+			}]
+		}]
+	}, {
+		"type": "Image",
+		"props": {
+			"y": -207,
+			"x": 0,
+			"width": 750,
+			"visible": false,
+			"skin": "ui/common/bg_mask.png",
+			"name": "detay",
+			"height": 1750
+		},
+		"compId": 42
+	}, {
+		"type": "Image",
+		"props": {
+			"y": 293,
+			"x": 64,
+			"visible": true,
+			"skin": "ui/common/font_guide_loosen.png",
+			"name": "imgGuideRotate"
+		},
+		"compId": 65
+	}, {
+		"type": "Sprite",
+		"props": {
+			"y": 408,
+			"x": 54,
+			"visible": false,
+			"texture": "ui/common/daoshu-1.png",
+			"name": "tank"
+		},
+		"compId": 75,
+		"child": [{
+			"type": "Sprite",
+			"props": {
+				"y": 15,
+				"x": 15,
+				"texture": "ui/common/daoshu-2.png",
+				"name": "oilProgress"
+			},
+			"compId": 76,
+			"child": [{
+				"type": "Sprite",
+				"props": {
+					"y": 75,
+					"x": 75,
+					"renderType": "mask"
+				},
+				"compId": 77
+			}]
+		}]
+	}, {
+		"type": "Image",
+		"props": {
+			"x": 0,
+			"top": 2,
+			"skin": "ui/common/screen_blood.png",
+			"scaleY": 1,
+			"name": "noOilTip"
+		},
+		"compId": 85
+	}, {
+		"type": "Image",
+		"props": {
+			"x": 0,
+			"width": 750,
+			"top": 1,
+			"skin": "ui/common/screen_speed.png",
+			"name": "superSpeeedUpTip",
+			"height": 1334
+		},
+		"compId": 86
+	}, {
+		"type": "FontClip",
+		"props": {
+			"y": 218,
+			"x": 325,
+			"value": "+100",
+			"spaceX": -50,
+			"skin": "ui/common/font_num.png",
+			"sheet": "1234567890+",
+			"scaleY": 0.7,
+			"scaleX": 0.7,
+			"name": "scoreUpTip",
+			"align": "center"
+		},
+		"compId": 87
+	}],
+	"loadList": ["ui/common/speed_up.png", "ui/common/font_num.png", "ui/common/bg_mask.png", "ui/common/font_guide_loosen.png", "ui/common/daoshu-1.png", "ui/common/daoshu-2.png", "ui/common/screen_blood.png", "ui/common/screen_speed.png"],
+	"loadList3D": []
+}

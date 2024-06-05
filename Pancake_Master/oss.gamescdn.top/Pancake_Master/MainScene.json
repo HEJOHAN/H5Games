@@ -1,0 +1,23 @@
+{
+    "type": "Scene",
+    "props": {
+        "y": 0,
+        "x": 0,
+        "width": 576,
+        "pivotY": 0,
+        "pivotX": 0,
+        "height": 1300
+    },
+    "compId": 2,
+    "child": [
+        {
+            "type": "Script",
+            "props": {
+                "runtime": "script/MainScene.ts"
+            },
+            "compId": 3
+        }
+    ],
+    "loadList": [],
+    "loadList3D": []
+}

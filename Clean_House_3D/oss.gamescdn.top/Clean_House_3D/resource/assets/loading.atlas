@@ -1,0 +1,59 @@
+{
+    "frames": {
+        "loading.png": {
+            "frame": {
+                "h": 1334,
+                "idx": 0,
+                "w": 750,
+                "x": 0,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 1334,
+                "w": 750
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "progress.png": {
+            "frame": {
+                "h": 22,
+                "idx": 0,
+                "w": 406,
+                "x": 751,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 26,
+                "w": 410
+            },
+            "spriteSourceSize": {
+                "x": 2,
+                "y": 2
+            }
+        },
+        "progress_bg.png": {
+            "frame": {
+                "h": 26,
+                "idx": 0,
+                "w": 410,
+                "x": 751,
+                "y": 23
+            },
+            "sourceSize": {
+                "h": 26,
+                "w": 410
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    },
+    "meta": {
+        "image": "loading.png",
+        "prefix": "loading/"
+    }
+}

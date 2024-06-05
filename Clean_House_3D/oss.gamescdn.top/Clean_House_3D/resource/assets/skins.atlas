@@ -1,0 +1,127 @@
+{
+    "frames": {
+        "cat.png": {
+            "frame": {
+                "h": 168,
+                "idx": 0,
+                "w": 152,
+                "x": 0,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 200,
+                "w": 200
+            },
+            "spriteSourceSize": {
+                "x": 24,
+                "y": 12
+            }
+        },
+        "defaultSkin.png": {
+            "frame": {
+                "h": 160,
+                "idx": 0,
+                "w": 160,
+                "x": 153,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 200,
+                "w": 200
+            },
+            "spriteSourceSize": {
+                "x": 20,
+                "y": 20
+            }
+        },
+        "dog.png": {
+            "frame": {
+                "h": 139,
+                "idx": 0,
+                "w": 187,
+                "x": 0,
+                "y": 169
+            },
+            "sourceSize": {
+                "h": 200,
+                "w": 200
+            },
+            "spriteSourceSize": {
+                "x": 7,
+                "y": 32
+            }
+        },
+        "fox.png": {
+            "frame": {
+                "h": 174,
+                "idx": 0,
+                "w": 190,
+                "x": 0,
+                "y": 309
+            },
+            "sourceSize": {
+                "h": 200,
+                "w": 200
+            },
+            "spriteSourceSize": {
+                "x": 5,
+                "y": 14
+            }
+        },
+        "frog.png": {
+            "frame": {
+                "h": 150,
+                "idx": 0,
+                "w": 176,
+                "x": 314,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 200,
+                "w": 200
+            },
+            "spriteSourceSize": {
+                "x": 13,
+                "y": 28
+            }
+        },
+        "owl.png": {
+            "frame": {
+                "h": 155,
+                "idx": 0,
+                "w": 180,
+                "x": 314,
+                "y": 151
+            },
+            "sourceSize": {
+                "h": 200,
+                "w": 200
+            },
+            "spriteSourceSize": {
+                "x": 9,
+                "y": 23
+            }
+        },
+        "panda.png": {
+            "frame": {
+                "h": 175,
+                "idx": 0,
+                "w": 187,
+                "x": 191,
+                "y": 307
+            },
+            "sourceSize": {
+                "h": 200,
+                "w": 200
+            },
+            "spriteSourceSize": {
+                "x": 6,
+                "y": 14
+            }
+        }
+    },
+    "meta": {
+        "image": "skins.png",
+        "prefix": "skins/"
+    }
+}

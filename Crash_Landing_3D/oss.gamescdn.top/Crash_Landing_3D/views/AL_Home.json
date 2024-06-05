@@ -1,0 +1,291 @@
+{
+	"type": "View",
+	"props": {
+		"width": 750,
+		"runtime": "scripts/views/HomeView_AL.ts",
+		"height": 1334
+	},
+	"compId": 2,
+	"child": [{
+		"type": "Box",
+		"props": {
+			"y": 30,
+			"x": 0,
+			"width": 750,
+			"name": "topPanel",
+			"height": 60
+		},
+		"compId": 24,
+		"child": [{
+			"type": "Image",
+			"props": {
+				"y": 112,
+				"x": 108,
+				"skin": "loading/icon_logo.png",
+				"name": "logo"
+			},
+			"compId": 81
+		}, {
+			"type": "Image",
+			"props": {
+				"y": 2,
+				"x": 255,
+				"visible": false,
+				"name": "collectHand"
+			},
+			"compId": 82
+		}, {
+			"type": "Button",
+			"props": {
+				"y": 2,
+				"x": 30,
+				"width": 60,
+				"stateNum": 1,
+				"skin": "ui/common/btn_sound_on.png",
+				"name": "btnSound",
+				"height": 60
+			},
+			"compId": 70
+		}, {
+			"type": "Button",
+			"props": {
+				"y": 2,
+				"x": 110,
+				"width": 60,
+				"visible": false,
+				"stateNum": 1,
+				"name": "btnVibrate",
+				"height": 60
+			},
+			"compId": 69
+		}, {
+			"type": "Button",
+			"props": {
+				"y": 403,
+				"x": 90,
+				"width": 120,
+				"visible": false,
+				"stateNum": 1,
+				"sizeGrid": "2,2,2,2",
+				"scaleY": 0.9,
+				"scaleX": 0.9,
+				"pivotX": 60,
+				"name": "btnGameL",
+				"label": " ",
+				"height": 160
+			},
+			"compId": 34
+		}, {
+			"type": "Button",
+			"props": {
+				"y": 403,
+				"x": 660,
+				"width": 120,
+				"visible": false,
+				"stateNum": 1,
+				"sizeGrid": "2,2,2,2",
+				"scaleY": 0.9,
+				"scaleX": 0.9,
+				"pivotX": 60,
+				"name": "btnGameR",
+				"label": " ",
+				"height": 160
+			},
+			"compId": 35
+		}, {
+			"type": "Button",
+			"props": {
+				"y": 578,
+				"x": 30,
+				"width": 120,
+				"visible": false,
+				"stateNum": 1,
+				"sizeGrid": "2,2,2,2",
+				"name": "btnGameL2",
+				"height": 160
+			},
+			"compId": 103
+		}, {
+			"type": "Button",
+			"props": {
+				"y": 578,
+				"x": 608,
+				"width": 120,
+				"visible": false,
+				"stateNum": 1,
+				"sizeGrid": "2,2,2,2",
+				"name": "btnGameR2",
+				"height": 160
+			},
+			"compId": 104
+		}]
+	}, {
+		"type": "Box",
+		"props": {
+			"y": 801,
+			"x": 83.5,
+			"width": 583,
+			"visible": true,
+			"name": "bottomui",
+			"height": 294,
+			"cacheAs": "normal"
+		},
+		"compId": 25,
+		"child": [{
+			"type": "Button",
+			"props": {
+				"y": -8,
+				"x": 89,
+				"stateNum": 1,
+				"skin": "ui/common/btn_play.png",
+				"name": "btnPlay"
+			},
+			"compId": 33
+		}, {
+			"type": "Button",
+			"props": {
+				"y": 130,
+				"x": -5,
+				"visible": false,
+				"stateNum": 1,
+				"name": "btnRank"
+			},
+			"compId": 11
+		}, {
+			"type": "Button",
+			"props": {
+				"y": 129,
+				"x": 158,
+				"visible": false,
+				"stateNum": 1,
+				"name": "btnSvrvice"
+			},
+			"compId": 12
+		}, {
+			"type": "Button",
+			"props": {
+				"y": 129,
+				"x": 307,
+				"visible": false,
+				"stateNum": 1,
+				"name": "btnShare"
+			},
+			"compId": 13
+		}, {
+			"type": "Button",
+			"props": {
+				"y": 129,
+				"x": 473,
+				"visible": false,
+				"stateNum": 1,
+				"name": "btnCollect"
+			},
+			"compId": 55
+		}, {
+			"type": "Button",
+			"props": {
+				"y": 295,
+				"x": -83.5,
+				"width": 750,
+				"visible": false,
+				"stateNum": 1,
+				"sizeGrid": "2,2,2,2",
+				"name": "appBanner",
+				"label": " ",
+				"height": 260
+			},
+			"compId": 76
+		}]
+	}, {
+		"type": "Box",
+		"props": {
+			"x": 58,
+			"width": 634,
+			"name": "gameList",
+			"height": 170,
+			"bottom": 39
+		},
+		"compId": 84,
+		"child": [{
+			"type": "Image",
+			"props": {
+				"y": 1,
+				"x": 0,
+				"width": 634,
+				"skin": "ui/common/bg_mask.png",
+				"height": 171,
+				"alpha": 0
+			},
+			"compId": 9
+		}, {
+			"type": "List",
+			"props": {
+				"y": 0,
+				"x": 6,
+				"width": 626,
+				"spaceX": 10,
+				"repeatY": 1,
+				"name": "gameList",
+				"height": 172
+			},
+			"compId": 10,
+			"child": [{
+				"type": "Box",
+				"props": {
+					"y": 11,
+					"x": 0,
+					"renderType": "render"
+				},
+				"compId": 99,
+				"child": [{
+					"type": "Image",
+					"props": {
+						"y": 1,
+						"x": 0,
+						"width": 200,
+						"name": "thumb",
+						"height": 150
+					},
+					"compId": 97
+				}]
+			}]
+		}]
+	}, {
+		"type": "Label",
+		"props": {
+			"y": 372,
+			"x": 270,
+			"width": 209,
+			"valign": "middle",
+			"text": "HIGHSCORE",
+			"strokeColor": "#000000",
+			"stroke": 3,
+			"height": 36,
+			"fontSize": 32,
+			"font": "Microsoft YaHei",
+			"color": "#ffffff",
+			"align": "center"
+		},
+		"compId": 105
+	}, {
+		"type": "Label",
+		"props": {
+			"y": 423,
+			"x": 37,
+			"width": 675,
+			"valign": "middle",
+			"text": "50",
+			"strokeColor": "#000000",
+			"stroke": 2,
+			"name": "highScore",
+			"height": 136,
+			"fontSize": 100,
+			"font": "Microsoft YaHei",
+			"color": "#ffffff",
+			"align": "center"
+		},
+		"compId": 107
+	}],
+	"loadList": ["loading/icon_logo.png", "ui/common/btn_sound_on.png", "ui/common/btn_play.png", "ui/common/bg_mask.png"],
+	"loadList3D": []
+}

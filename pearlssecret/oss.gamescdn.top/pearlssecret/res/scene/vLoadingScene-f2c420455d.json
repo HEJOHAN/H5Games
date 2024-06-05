@@ -1,0 +1,312 @@
+{
+    "type": "View",
+    "props": {
+        "y": 640,
+        "x": 384,
+        "width": 768,
+        "presetID": null,
+        "name": "vLoadingScene",
+        "isPresetRoot": true,
+        "height": 1280,
+        "anchorY": 0.5,
+        "anchorX": 0.5
+    },
+    "compId": 3,
+    "child": [
+        {
+            "type": "Sprite",
+            "props": {
+                "y": 0,
+                "x": 0,
+                "width": 768,
+                "name": "CC_spriteBgHolder",
+                "height": 1280
+            },
+            "compId": 52
+        },
+        {
+            "type": "Sprite",
+            "props": {
+                "y": 0,
+                "x": 0,
+                "width": 768,
+                "name": "CC_spriteBg",
+                "height": 1280
+            },
+            "compId": 10
+        },
+        {
+            "type": "Sprite",
+            "props": {
+                "y": 168,
+                "x": 186,
+                "visible": false,
+                "texture": "res/ui/loading/logo.png",
+                "name": "CC_spriteLogo"
+            },
+            "compId": 25
+        },
+        {
+            "type": "Box",
+            "props": {
+                "y": 1006,
+                "x": 384,
+                "width": 576,
+                "name": "CC_boxProgress",
+                "height": 10,
+                "anchorY": 0.5,
+                "anchorX": 0.5
+            },
+            "compId": 26
+        },
+        {
+            "type": "Label",
+            "props": {
+                "y": 147,
+                "x": 384,
+                "text": "Powered by LayaAir Engine",
+                "strokeColor": "#8b73ef",
+                "presetID": null,
+                "name": "tipEngine",
+                "fontSize": 20,
+                "color": "#000000",
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "align": "center"
+            },
+            "compId": 18
+        },
+        {
+            "type": "Sprite",
+            "props": {
+                "y": 1170,
+                "x": 384,
+                "width": 766,
+                "pivotY": 111,
+                "pivotX": 383,
+                "name": "CC_spriteTextBg",
+                "height": 132
+            },
+            "compId": 37,
+            "child": [
+                {
+                    "type": "Label",
+                    "props": {
+                        "y": 10,
+                        "x": 383,
+                        "text": "",
+                        "strokeColor": "#8b73ef",
+                        "presetID": null,
+                        "name": "tipHealth",
+                        "fontSize": 20,
+                        "color": "#995476",
+                        "anchorY": 0.5,
+                        "anchorX": 0.5,
+                        "align": "center"
+                    },
+                    "compId": 31
+                },
+                {
+                    "type": "Label",
+                    "props": {
+                        "y": 33,
+                        "x": 383,
+                        "text": "",
+                        "strokeColor": "#8b73ef",
+                        "presetID": null,
+                        "name": "tipHealth1",
+                        "fontSize": 20,
+                        "color": "#995476",
+                        "anchorY": 0.5,
+                        "anchorX": 0.5,
+                        "align": "center"
+                    },
+                    "compId": 19
+                },
+                {
+                    "type": "Label",
+                    "props": {
+                        "y": 55,
+                        "x": 383,
+                        "text": "",
+                        "strokeColor": "#8b73ef",
+                        "presetID": null,
+                        "name": "tipHealth2",
+                        "fontSize": 20,
+                        "color": "#995476",
+                        "anchorY": 0.5,
+                        "anchorX": 0.5,
+                        "align": "center"
+                    },
+                    "compId": 20
+                },
+                {
+                    "type": "Label",
+                    "props": {
+                        "y": -56,
+                        "x": 383,
+                        "width": 690,
+                        "valign": "middle",
+                        "strokeColor": "#d64ee2",
+                        "stroke": 0,
+                        "presetID": null,
+                        "name": "CC_labelTipAuthor",
+                        "leading": 2,
+                        "height": 45,
+                        "fontSize": 16,
+                        "color": "#ffffff",
+                        "anchorY": 0.5,
+                        "anchorX": 0.5,
+                        "align": "center"
+                    },
+                    "compId": 24
+                },
+                {
+                    "type": "Script",
+                    "props": {
+                        "space": 4,
+                        "bHorizontalCenter": false,
+                        "runtime": "script/ulframework/component/CustomLayout.ts"
+                    },
+                    "compId": 46
+                }
+            ]
+        },
+        {
+            "type": "Label",
+            "props": {
+                "y": 872,
+                "x": 393,
+                "visible": false,
+                "text": "Click to continue the game",
+                "strokeColor": "#453eff",
+                "stroke": 3,
+                "presetID": null,
+                "name": "CC_labelGoon",
+                "leading": 3,
+                "fontSize": 22,
+                "color": "#ffffff",
+                "anchorY": 0.5,
+                "anchorX": 0.5,
+                "align": "center"
+            },
+            "compId": 41
+        },
+        {
+            "type": "Box",
+            "props": {
+                "y": 635,
+                "x": 379,
+                "width": 10,
+                "height": 10
+            },
+            "compId": 57,
+            "child": [
+                {
+                    "type": "Sprite",
+                    "props": {
+                        "y": 261.5,
+                        "x": -218,
+                        "texture": "res/ui/loading/art_02.png"
+                    },
+                    "compId": 62
+                },
+                {
+                    "type": "Sprite",
+                    "props": {
+                        "y": 299,
+                        "x": -167,
+                        "width": 59,
+                        "texture": "res/ui/loading/art_03.png",
+                        "pivotY": 43,
+                        "pivotX": 30,
+                        "name": "CC_spriteMusicNote0",
+                        "height": 85
+                    },
+                    "compId": 55
+                },
+                {
+                    "type": "Sprite",
+                    "props": {
+                        "y": 330,
+                        "x": -91,
+                        "width": 29,
+                        "texture": "res/ui/loading/art_04.png",
+                        "pivotY": 33,
+                        "pivotX": 15,
+                        "name": "CC_spriteMusicNote1",
+                        "height": 66
+                    },
+                    "compId": 56
+                },
+                {
+                    "type": "Sprite",
+                    "props": {
+                        "y": 293,
+                        "x": -32,
+                        "width": 60,
+                        "texture": "res/ui/loading/art_05.png",
+                        "pivotY": 43,
+                        "pivotX": 30,
+                        "name": "CC_spriteMusicNote2",
+                        "height": 85
+                    },
+                    "compId": 58
+                },
+                {
+                    "type": "Sprite",
+                    "props": {
+                        "y": 317,
+                        "x": 43,
+                        "width": 49,
+                        "texture": "res/ui/loading/art_06.png",
+                        "pivotY": 34,
+                        "pivotX": 25,
+                        "name": "CC_spriteMusicNote3",
+                        "height": 67
+                    },
+                    "compId": 59
+                },
+                {
+                    "type": "Sprite",
+                    "props": {
+                        "y": 328,
+                        "x": 123,
+                        "width": 59,
+                        "texture": "res/ui/loading/art_07.png",
+                        "pivotY": 42,
+                        "pivotX": 30,
+                        "name": "CC_spriteMusicNote4",
+                        "height": 84
+                    },
+                    "compId": 60
+                },
+                {
+                    "type": "Sprite",
+                    "props": {
+                        "y": 310,
+                        "x": 196,
+                        "width": 29,
+                        "texture": "res/ui/loading/art_08.png",
+                        "pivotY": 33,
+                        "pivotX": 15,
+                        "name": "CC_spriteMusicNote5",
+                        "height": 66
+                    },
+                    "compId": 61
+                }
+            ]
+        }
+    ],
+    "loadList": [
+        "res/ui/loading/logo.png",
+        "res/ui/loading/art_02.png",
+        "res/ui/loading/art_03.png",
+        "res/ui/loading/art_04.png",
+        "res/ui/loading/art_05.png",
+        "res/ui/loading/art_06.png",
+        "res/ui/loading/art_07.png",
+        "res/ui/loading/art_08.png"
+    ],
+    "loadList3D": []
+}

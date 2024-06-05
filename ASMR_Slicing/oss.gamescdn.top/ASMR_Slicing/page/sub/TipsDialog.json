@@ -1,0 +1,44 @@
+{
+    "compId": 2,
+    "child": [
+        {
+            "compId": 3,
+            "type": "Image",
+            "props": {
+                "y": 0,
+                "x": 55,
+                "skin": "comp/tips_bg.png",
+                "var": "bg"
+            }
+        },
+        {
+            "compId": 4,
+            "type": "Label",
+            "props": {
+                "bold": true,
+                "width": 750,
+                "color": "#ffffff",
+                "text": "sign in successfully",
+                "align": "center",
+                "height": 80,
+                "var": "tips_nr",
+                "fontSize": 45,
+                "valign": "middle",
+                "y": 0,
+                "x": 0
+            }
+        }
+    ],
+    "type": "Dialog",
+    "props": {
+        "isShowEffect": false,
+        "width": 750,
+        "runtime": "common/Tips/TipsDialog.js",
+        "mouseThrough": true,
+        "height": 80
+    },
+    "loadList": [
+        "comp/tips_bg.png"
+    ],
+    "loadList3D": []
+}

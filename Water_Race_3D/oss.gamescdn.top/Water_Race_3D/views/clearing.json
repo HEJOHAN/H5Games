@@ -1,0 +1,126 @@
+{
+	"type": "View",
+	"props": {
+		"width": 750,
+		"visible": true,
+		"runtime": "scripts/views/ClearingView_kxhs.ts",
+		"height": 1334
+	},
+	"compId": 2,
+	"child": [{
+		"type": "Image",
+		"props": {
+			"y": -429,
+			"x": -40,
+			"width": 830,
+			"skin": "ui/common/bg_mask1.png",
+			"name": "bg",
+			"height": 2200,
+			"alpha": 0
+		},
+		"compId": 92
+	}, {
+		"type": "Box",
+		"props": {
+			"y": 163,
+			"x": 0,
+			"width": 750,
+			"name": "score",
+			"height": 130
+		},
+		"compId": 6,
+		"child": [{
+			"type": "Label",
+			"props": {
+				"y": -16,
+				"x": 323.4296875,
+				"text": "SCORE",
+				"name": "lblName",
+				"fontSize": 32,
+				"font": "Microsoft YaHei",
+				"color": "#ffffff"
+			},
+			"compId": 16
+		}, {
+			"type": "FontClip",
+			"props": {
+				"y": 18,
+				"x": 0,
+				"width": 697,
+				"value": "3",
+				"spaceX": -50,
+				"skin": "ui/common/font_num.png",
+				"sheet": "1234567890+",
+				"name": "fontScore",
+				"height": 100,
+				"align": "center"
+			},
+			"compId": 83
+		}, {
+			"type": "Label",
+			"props": {
+				"y": 130,
+				"x": 335.8828125,
+				"text": "BEST",
+				"name": "lblNameb",
+				"fontSize": 32,
+				"font": "Microsoft YaHei",
+				"color": "#fbde0a"
+			},
+			"compId": 96
+		}, {
+			"type": "FontClip",
+			"props": {
+				"y": 162,
+				"x": 148,
+				"width": 697,
+				"value": "3",
+				"spaceX": -50,
+				"skin": "ui/common/font_num.png",
+				"sheet": "1234567890+",
+				"scaleY": 0.6,
+				"scaleX": 0.6,
+				"name": "fontScoreb",
+				"height": 100,
+				"align": "center"
+			},
+			"compId": 97
+		}]
+	}, {
+		"type": "Box",
+		"props": {
+			"x": 74,
+			"width": 607,
+			"name": "bottomPanel",
+			"height": 112,
+			"cacheAs": "normal",
+			"bottom": 94
+		},
+		"compId": 38,
+		"child": [{
+			"type": "Button",
+			"props": {
+				"y": 0,
+				"x": 66,
+				"stateNum": 1,
+				"skin": "ui/common/btn_home.png",
+				"name": "btnBack",
+				"label": " ",
+				"cacheAs": "normal"
+			},
+			"compId": 20
+		}, {
+			"type": "Button",
+			"props": {
+				"y": 0,
+				"x": 206,
+				"stateNum": 1,
+				"skin": "ui/common/btn_agen.png",
+				"name": "btnPlay"
+			},
+			"compId": 53
+		}]
+	}],
+	"loadList": ["ui/common/bg_mask1.png", "ui/common/font_num.png", "ui/common/Emoji_Fail.png", "ui/common/box_3.png", "ui/common/box_5.png", "ui/common/mask_white.png", "ui/common/btn_home.png", "ui/common/btn_agen.png", "prefab/appItem.prefab"],
+	"loadList3D": []
+}
